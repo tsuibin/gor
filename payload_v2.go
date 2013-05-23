@@ -1,7 +1,7 @@
 package gor
 
 import (
-	//"github.com/wendal/errors"
+	//"github.com/tsuibin/errors"
 	"fmt"
 	"path/filepath"
 	"reflect"

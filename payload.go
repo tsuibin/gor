@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/wendal/mustache"
+	"github.com/tsuibin/mustache"
 	"io"
 	"io/ioutil"
 	"log"

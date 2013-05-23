@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"flag"
-	"github.com/wendal/gor"
+	"github.com/tsuibin/gor"
 	"io/ioutil"
 	"log"
 	"net/http"

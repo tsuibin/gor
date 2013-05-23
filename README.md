@@ -17,15 +17,15 @@ Transform your plain text into static websites and blogs.
 gor is a [Ruhoh](http://ruhoh.com/) like websites and blog generator engine written in [Go](http://golang.org/). It's almost compatible to ruhoh 1.x specification. You can treat gor as a replacement of the official implementation what is written in [Ruby](http://www.ruby-lang.org/en/). 
 
 Why reinvent a wheel? gor has following awesome benefits:
-1. Speed -- Less than 1 second when compiling all my near 200 blogs on wendal.net
+1. Speed -- Less than 1 second when compiling all my near 200 blogs on tsuibin.net
 2. Simple -- Only one single executable file generated after compiling, no other dependence
 
 ## Installation
 ====================
 To install:
 
-    go get -u github.com/wendal/gor
-    go install github.com/wendal/gor/gor
+    go get -u github.com/tsuibin/gor
+    go install github.com/tsuibin/gor/gor
 
 
 If you use [brew](https://github.com/mxcl/homebrew) on Mac, and you didn't set `$GOROOT` and `$GOPATH` environment variable
@@ -60,7 +60,7 @@ Open the site.yml file in root folder
 
 Open the config.yml file in root folder
 
-1. production_url is your website address, such as http://wendal.net, don't add '/' at last, it will be used to generate rss.xml etc.
+1. production_url is your website address, such as http://tsuibin.net, don't add '/' at last, it will be used to generate rss.xml etc.
 2. summary_lines is the length of abstract on homepage, any number as you like.
 3. latest is how many posts will be shown on homepage
 
@@ -104,8 +104,8 @@ gor 是使用golang实现的类Ruhoh静态博客引擎(Ruhoh like),基本兼容r
 ====================
 To install:
 
-    go get -u github.com/wendal/gor
-    go install github.com/wendal/gor/gor
+    go get -u github.com/tsuibin/gor
+    go install github.com/tsuibin/gor/gor
 
 在Mac下使用brew的用户
 
@@ -141,7 +141,7 @@ To install:
 
 打开站点根目录下的config.yml文件
 
-1. 设置production_url为你的网站地址, 例如 http://wendal.net 最后面不需要加入/ 生成rss.xml等文件时会用到
+1. 设置production_url为你的网站地址, 例如 http://tsuibin.net 最后面不需要加入/ 生成rss.xml等文件时会用到
 2. summary_lines 首页的文章摘要的长度,按你喜欢的呗
 3. latest 首页显示多少文章
 
@@ -189,7 +189,7 @@ Sites using gor
 
 [visualfc's blog](http://visualfc.github.com/)
 
-[wendal随笔](http://wendal.net)
+[wendal随笔](http://tsuibin.net)
 
 
 If you are also using gor, please don't hesitate to tell me by email or open an issue.

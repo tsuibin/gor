@@ -18,24 +18,24 @@ func Test_Map2Struct(t *testing.T) {
 }
 
 func Test_Map2Struct2(t *testing.T) {
-	m := map[string]interface{}{"Theme": "facebook", "pages": map[string]interface{}{"permalink": "/wendal"}}
+	m := map[string]interface{}{"Theme": "facebook", "pages": map[string]interface{}{"permalink": "/tsuibin"}}
 	top := &TopConfig{}
 	ToStruct(m, reflect.ValueOf(top))
 
 	if top.Theme != "facebook" {
 		t.Fail()
 	}
-	if top.Pages.Permalink != "/wendal" {
+	if top.Pages.Permalink != "/tsuibin" {
 		t.Fail()
 	}
 }
 
 func Test_Map2Struct3(t *testing.T) {
-	m := map[string]interface{}{"title": "wendal", "navigation": []string{"admin.html", "user.html"}, "author": map[string]interface{}{"name": "wendal"}}
+	m := map[string]interface{}{"title": "tsuibin", "navigation": []string{"admin.html", "user.html"}, "author": map[string]interface{}{"name": "tsuibin"}}
 	site := &SiteConfig{}
 	ToStruct(m, reflect.ValueOf(site))
 
-	if site.Title != "wendal" {
+	if site.Title != "tsuibin" {
 		t.Fail()
 	}
 	if site.Navigation[0] != "admin.html" {

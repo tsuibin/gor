@@ -2,8 +2,8 @@ package gor
 
 import (
 	"fmt"
-	"github.com/wendal/errors"
-	"github.com/wendal/mustache"
+	"github.com/tsuibin/errors"
+	"github.com/tsuibin/mustache"
 	"io/ioutil"
 	"log"
 	"os"

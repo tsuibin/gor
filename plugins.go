@@ -3,7 +3,7 @@ package gor
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/wendal/mustache"
+	"github.com/tsuibin/mustache"
 	"log"
 	"os"
 	"time"

@@ -2,7 +2,7 @@ package gor
 
 import (
 	"fmt"
-	"github.com/wendal/mustache"
+	"github.com/tsuibin/mustache"
 	"log"
 	"time"
 )

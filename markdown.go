@@ -4,7 +4,7 @@ import (
 	//"bytes"
 	// "github.com/knieriem/markdown"
 	//. "github.com/russross/blackfriday"
-	. "github.com/wendal/blackfriday"
+	. "github.com/tsuibin/blackfriday"
 	"log"
 	"regexp"
 	"strings"
